@@ -118,3 +118,14 @@ console.log(array)
 VM6364:1 (4) [2, 3, 4, 5]
 undefined
 //
+
+//
+let array = [1, 2, 3, 4, 5]
+console.log(Array)
+VM6420:2 ƒ Array() { [native code] }
+undefined
+let shiftArray = array.pop()
+undefined
+VM6546:1 (4) [1, 2, 3, 4]
+undefined
+//
