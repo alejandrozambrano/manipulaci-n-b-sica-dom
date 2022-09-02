@@ -64,9 +64,10 @@ var articulosBaratos = articulos.some(function(articulo){
 undefined
 //
 
-//
+// Array inicial
 let numArray = [1,2,3,4,5]
-undefined
+
+// Función
 function newNum(){
     numArray.push(6,7)
 }
@@ -83,5 +84,25 @@ VM5319:1 ƒ newNum(){
 undefined
 console.log(numArray)
 VM5327:1 (7) [1, 2, 3, 4, 5, 6, 7]
+undefined
+//
+
+//
+let txtArray = ["Ana", "Juan", "Diego", "Lautaro"]
+undefined
+function addCharacteres(){
+    txtArray.push("Chis", "María")
+    console.log(txtArray)   
+}
+undefined
+addCharacteres
+ƒ addCharacteres(){
+    txtArray.push("Chis", "María")
+    console.log(txtArray)   
+}
+txtArray
+(4) ['Ana', 'Juan', 'Diego', 'Lautaro']
+addCharacteres()
+VM5825:3 (6) ['Ana', 'Juan', 'Diego', 'Lautaro', 'Chis', 'María']
 undefined
 //
