@@ -106,3 +106,15 @@ addCharacteres()
 VM5825:3 (6) ['Ana', 'Juan', 'Diego', 'Lautaro', 'Chis', 'María']
 undefined
 //
+
+//
+let array = [1, 2, 3, 4, 5]
+console.log(Array)
+VM6336:2 ƒ Array() { [native code] }
+undefined
+let shiftArray = array.shift()
+undefined
+console.log(array)
+VM6364:1 (4) [2, 3, 4, 5]
+undefined
+//
