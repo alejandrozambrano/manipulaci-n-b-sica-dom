@@ -16,3 +16,14 @@ let nombre = 'XXXX'
 ¿Cuál operador me permite sumar o concatenar?
 EL operador que nos permite sumar o concatenar es +. Este operador nos permite sumar números cuando lo usamos con números. Pero cuando los strings, lo que hace es unir (concatenar, así se dice) ambos strings.
 
+2) Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
+
+Nombre: string
+Apellido: string
+Nombre de usuario en Platzi: strig (@fulanito)
+Edad: number
+Correo electrónico: string (lala@gmail.com)
+Mayor de edad: boolean
+Dinero ahorrado: number
+Deudas: number
+
