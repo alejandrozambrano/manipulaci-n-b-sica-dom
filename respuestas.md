@@ -39,3 +39,14 @@ let esMayorDeEdad = true;
 let dineroAhorrado = 1000;
 let deudas = 100;
 ```
+4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
+
+
+Nombre completo (nombre y apellido)
+Dinero real (dinero ahorrado menos deudas)
+
+
+```js
+let nombreCompleto = nombre + ' ' + apellido ;
+let dineroReal = dineroAhorrado - deudas; 
+```
