@@ -7,7 +7,7 @@ function miFuncion () {
 miFuncion();
 
 
-//Expresión
+//Expresión ó funciones anónimas
 
 var mifuncion = function(a,b) {
     return a + b;
