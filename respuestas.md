@@ -50,3 +50,10 @@ Dinero real (dinero ahorrado menos deudas)
 let nombreCompleto = nombre + ' ' + apellido ;
 let dineroReal = dineroAhorrado - deudas; 
 ```
+
+Funciones
+
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+¿Qué es una función?
+¿Cuándo me sirve usar una función en mi código?
+¿Cuál es la diferencia entre parámetros y argumentos de una función?
