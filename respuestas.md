@@ -20,10 +20,22 @@ EL operador que nos permite sumar o concatenar es +. Este operador nos permite s
 
 Nombre: string
 Apellido: string
-Nombre de usuario en Platzi: strig (@fulanito)
+Nombre de usuario en Platzi: string (@fulanito)
 Edad: number
 Correo electrónico: string (lala@gmail.com)
 Mayor de edad: boolean
 Dinero ahorrado: number
 Deudas: number
 
+3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
+
+```js
+let nombre = 'Alejandro';
+let apellido = 'Zambrano';
+let username = 'AlejoZambrano';
+let edad = 19;
+let email = 'alejandro_zambrano_@hotmail.com';
+let esMayorDeEdad = true;
+let dineroAhorrado = 1000;
+let deudas = 100;
+```
