@@ -54,6 +54,17 @@ let dineroReal = dineroAhorrado - deudas;
 Funciones
 
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+
 ¿Qué es una función?
+
+Las funciones nos permiten encapsular (guardar) bloque de código para reutilizarlos y ejecutarlos en el futuro. 
+
 ¿Cuándo me sirve usar una función en mi código?
+
+Nos sirve cuando tenemos variables o bloque de código muy parecidos (con cambio que podrían ser parámetros y argumentos) que podemos encapsular para reutilizar más de una vez en el futuro. 
+
+Tambien nos sirve para ordenar y mejorar la legibilidad de nuestro código.
+
 ¿Cuál es la diferencia entre parámetros y argumentos de una función?
+
+las funciones reciben parámetro cuando las creamos. Y les enviamos argumentos cuando las ejecutamos.
