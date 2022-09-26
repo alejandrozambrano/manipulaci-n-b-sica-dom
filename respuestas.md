@@ -111,6 +111,7 @@ Si, Las funciones pueden encapsular cualquier bloque de código, incluyendo cond
 
 
 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
+
 const tipoDeSuscripcion = "Basic";
 
 switch (tipoDeSuscripcion) {
@@ -123,7 +124,7 @@ switch (tipoDeSuscripcion) {
    case "Expert":
        console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
        break;
-   case "ExpertPlus":
+   case "ExpertDou":
        console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
        break;
 }
@@ -134,6 +135,8 @@ Ciclos
 
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es un ciclo?
+
+
 ¿Qué tipos de ciclos existen en JavaScript?
 ¿Qué es un ciclo infinito y por qué es un problema?
 ¿Puedo mezclar ciclos y condicionales?
