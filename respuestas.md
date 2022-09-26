@@ -97,8 +97,19 @@ Condicionales
 
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es un condicional?
+
+Son la forma en que ejeutamos un bloque de código u otro dependen de alguna condición o validación.
+
 ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
+
+IF (else y else if), Switch
+El condicional if (con el else y else if) nos permite hacer validaciones completamente distintas (si así queremos) en cada validación o condicional. En cambio, en el switch todos los cases se comparar con la mosma variable o condicional que definimos en el switch.
+
 ¿Puedo combinar funciones y condicionales?
+
+Si, Las funciones pueden encapsular cualquier bloque de código, incluyendo condicionales.
+
+
 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 const tipoDeSuscripcion = "Basic";
 
