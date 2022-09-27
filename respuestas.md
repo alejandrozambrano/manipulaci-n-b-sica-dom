@@ -173,15 +173,75 @@ while (i >= 2) {
 
 💡 Pista: puedes usar la función prompt de JavaScript.
 
-
+```js
+while (respuesta != '4') {
+    let pregunta = prompt('¿Cuánto es 2 + 2')
+    respuesta = pregunta;
+}
+```
 
 Listas
 
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es un array?
+
+Es una lista de Elementos. 
+
+```js
+const array = [1, 'jaja', true, false];
+```
+
 ¿Qué es un objeto?
+
+Es una lista de elmentos PERO cada elementos tiene un nomnbre clave.
+
+```js
+const obj = {
+    nombre: 'Fulanito',
+    edad: 3,
+    comidasFavoritas: ['Pollo frito', 'vegetales'],
+};
+```
+
 ¿Cuándo es mejor usar objetos o arrays?
+
+Arrays cuando lo que haremos en un elemento es lo mismo  que en todos los demás (la regla se puede incumplir). Mientras que un objeto cuando los nombre de cada elemento son importantes para nuestro algoritmo.
+
 ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+
+Sí. los arrays pueden guardar objetos. Y los objetos pueden guardar entre sus propiedades. 
+
 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+
+
+```js
+function imprimirPrimerElementosArray(arr) {
+    console.log(arr[1])
+}
+```
+
+
 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+
+
+```js
+function imprimirElementoPorElemento(arr) {
+  for (let i = 0; i < arr.length; i++) {
+      console.log(arr[i])     
+  }
+}
+
+imprimirElementoPorElemento(['Alejandro', 'Zambrano', 'Lasso'])
+
+```
+
 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+```js
+function imprimirElementoPorElementoObjeto(obj) {
+    const arr = Object.values(obj);
+  for (let i = 0; i < arr.length; i++) {
+      console.log(arr[i])
+  }
+}
+```
