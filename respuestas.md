@@ -129,7 +129,46 @@ switch (tipoDeSuscripcion) {
        break;
 }
 3️⃣ Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
-💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays y un solo condicional. 😏
+
+```js
+function conseguirtipoDeSuscripcion(suscripcion) {
+    if (suscripcion == 'free') {
+        console.log("Solo puedes tomar los cursos gratis");
+        return;
+    } if (suscripcion == 'Basic') {
+         console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+        return;
+    } if (suscripcion == 'Expert') {
+        console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+        return;
+    } if (suscripcion == 'ExpertDuo') {
+        console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+        return;
+    }  
+      console.warn('Este tipo e suscripción de existe') 
+}
+```
+
+💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays o objetos y un solo condicional. 😏
+
+```js
+const tiposDeSuscripciones = {
+    free: 'Solo puedes tomar los cursos gratis',
+    basic: 'Puedes tomar casi todos los cursos de Platzi durante un mes',
+    expert: 'Puedes tomar casi todos los cursos de Platzi durante un año',
+    expertDuo: 'Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año',
+};
+
+function conseguirtipoDeSuscripcion(suscripcion) {
+    if (tiposDeSuscripciones[suscripcion]) {
+        console.log(tiposDeSuscripciones[suscripcion]);
+        return;
+    }
+    
+    console.warn('Este tipo e suscripción de existe')     
+}
+```
+
 
 Ciclos
 
