@@ -17,3 +17,4 @@ console.log({
 })
 
 h1.innerHTML = 'Alejandro <br> Zambrano'; 
+h1.innerText = 'Alejandro <br> Zambrano'; 
