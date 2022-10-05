@@ -15,3 +15,5 @@ console.log({
     pid,
     input,
 })
+
+h1.innerHTML = 'Alejandro <br> Zambrano'; 
